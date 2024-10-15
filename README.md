@@ -4,12 +4,13 @@
 
 This script will scan the datadir of the Mariadb database and verify each datafile. 
 
-This script can be run while the database is running in in use.
+This script can be run while the database is running and in use.
 
 Example of running the script for a support ticket:
 ```
 ./innochecksum_entire_datadir.sh | tee /tmp/$(hostname)_innochecksum_entire_datadir.log
 ```
+Attach the created log file to the support ticket.
 
 Output sample finding a bad file:
 ```
