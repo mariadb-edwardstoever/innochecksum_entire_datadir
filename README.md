@@ -7,10 +7,8 @@ This script will scan the datadir of the Mariadb database and verify each datafi
 This script can be run while the database is running and in use, however accurate results will be achieved if run when the database is shutdown.
 
 In database releases that include the feature allowing ibdata1 shrinkage, the script will report that ibdata1 is "BAD" even when it is "OK" if the script is run while the database is running.
-See 
-https://jira.mariadb.org/browse/MDEV-14795
-https://jira.mariadb.org/browse/MENT-1304
-Known effected versions: 10.6.19, 11.2.1, 10.11.10 
+
+See https://jira.mariadb.org/browse/MDEV-14795 and https://jira.mariadb.org/browse/MENT-1304  Known effected versions: 10.6.19, 11.2.1, 10.11.10 (there may be others).
 
 
 Example of running the script for a support ticket:
