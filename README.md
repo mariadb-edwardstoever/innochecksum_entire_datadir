@@ -6,7 +6,7 @@ This script will scan the datadir of the Mariadb database and verify each datafi
 
 This script can be run while the database is running and in use, however accurate results will be achieved if run when the database is shutdown.
 
-In recent database releases the script will report that ibdata1 is "BAD" even when it is "OK" if the script is run while the database is running.
+In recent database releases the script will report that ibdata1 is "BAD!!" even when it is "OK" if the script is run while the database is running.
 
 Example of running the script for a support ticket:
 ```
